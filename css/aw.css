@@ -1,0 +1,41 @@
+body {
+    background: -webkit-gradient(linear,left bottom,left top,from(#76f3fa),to(#3a4eff));
+    background: linear-gradient(0deg,#789cbf,#0d467d);
+	position: relative;
+    padding: 0 0 60px;
+    margin: 0;
+    max-width: 100%;
+    min-height: 100vh;
+}
+.logo{
+    background: url(/image/AW-LOGO.png);
+    margin: auto;
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    border-radius: 100px;
+    border: 2px solid #3697f3;
+}
+.tasti{
+    background: #ffffff00;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    margin-top: 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 2px solid white;
+    color: white;
+    font-family: sans-serif;
+	-webkit-transition: all .25s cubic-bezier(.08,.59,.29,.99);
+    transition: all .25s cubic-bezier(.08,.59,.29,.99);
+}
+.tasti:hover{
+	border-radius: 0px 15px 0px 15px;
+    border: 2px solid #3697f3;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+	text-decoration: none !important;
+}
